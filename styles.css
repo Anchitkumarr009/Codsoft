@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 33);
+}
+
+header {
+    background-color: #0f165c;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-image {
+    background-image: url('suitcasee.jpg');
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:black;
+    
+}
+.tour {
+    
+    
+    text-align: center;
+    color: rgb(12, 11, 11);
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+.tour {
+    margin-bottom: 20px;
+}
+
+.tour img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+#form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px white;
+    border-radius: 4px;
+    color: white;
+    background-color: #051830;
+}
+#Review {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px white;
+    border-radius: 4px;
+    color: white;
+    background-color: #051830;
+    text-align: center;
+    
+}
+
+#about {
+    background-color: #051830;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    
+}
+#contact{
+    background-color: #051830;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    
+}
+
+footer {
+    background-color: #051830;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+    
+

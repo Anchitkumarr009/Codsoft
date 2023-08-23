@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login to The travelers choice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: aliceblue;
+            
+        }
+        .container {
+            padding: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login to The travelers choice</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginMessage"></p>
+    </div>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+        const loginMessage = document.getElementById('loginMessage');
+
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const username = loginForm.username.value;
+            const password = loginForm.password.value;
+
+            
+            if (username === 'user' && password === 'password') {
+                loginMessage.textContent = 'Login successful!';
+            } else {
+                loginMessage.textContent = 'Login failed. Please check your credentials.';
+            }
+        });
+    </script>
+</body>
+</html>
